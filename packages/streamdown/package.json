@@ -1,6 +1,6 @@
 {
   "name": "streamdown",
-  "version": "2.3.0",
+  "version": "2.4.0",
   "type": "module",
   "main": "./dist/index.js",
   "module": "./dist/index.js",
@@ -10,7 +10,11 @@
       "types": "./dist/index.d.ts",
       "import": "./dist/index.js"
     },
-    "./styles.css": "./styles.css"
+    "./styles.css": "./styles.css",
+    "./tailwind": {
+      "types": "./dist/tailwind.d.ts",
+      "import": "./dist/tailwind.js"
+    }
   },
   "files": [
     "dist",
